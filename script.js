@@ -12,7 +12,6 @@ $(document).ready(function () {
             $('.scroll-up-btn').removeClass("show");
         }
     });
-
     var typed = new Typed(" .typing", {
         strings: ["Web Development", "Programming", "Designing", "Exploring", "Singing"],
         typeSpeed: 100,
