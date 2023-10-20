@@ -88,14 +88,14 @@ html {
   font-size: 30px;
   border-radius: 6px;
   cursor: pointer;
-  pointer-events: none;
-  transition: all 0.3 ease;
+  /* pointer-events: none; */
+  /* transition: all 0.3 ease; */
 }
 
 .scroll-up-btn .show {
   bottom: 30px;
   opacity: 1;
-  pointer-events: auto;
+  /* pointer-events: auto; */
 }
 
 .home {
@@ -428,6 +428,12 @@ section .title::after {
 
 .contact-card:hover {
   background-color: white;
+  color: crimson;
+}
+.mail-id{
+  color: white;
+}
+.mail-id:hover{
   color: crimson;
 }
 
