@@ -588,3 +588,32 @@ footer span a:hover {
     width: 100%;
   }
 }
+
+@media(max-width: 480px) {
+  .skills{
+    padding-left: 70px;
+  }
+  .contact-me{
+    padding-left: 50px;
+  }
+  .contact-card{
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media(max-width: 457px){
+  .home .home-content .text-1 {
+    font-size: 20px;
+  }
+  .home .home-content .text-2 {
+    font-size: 53px;
+  }
+  .home .home-content .text-3 {
+    font-size: 30px;
+  }
+  .home .home-content .text-4 {
+    font-size: 25px;
+    margin: 5px 0;
+  }
+}
